@@ -16,6 +16,17 @@ A new Flutter plugin.
   s.public_header_files = 'Classes/**/*.h'
   s.dependency 'Flutter'
 
+#  s.source = { :git => "http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git", :tag => s.version.to_s }
+#  s.dependency 'AlibcTradeSDK'
+#  s.dependency 'AliBCSpecs', :git => 'http://repo.baichuan-ios.taobao.com/baichuanSDK/AliBCSpecs.git'
+
+#  s.static_framework = true
+
+  s.vendored_frameworks ="ALiTradeSDK_3.1.1.206_full_package/Frameworks/*.framework"
+  s.resource = "ALiTradeSDK_3.1.1.206_full_package/Resources/*.bundle"
+  s.frameworks = "MobileCoreServices","AssetsLibrary","CoreMotion","ImageIO","CoreData","CoreLocation","Security","SystemConfiguration","CoreTelephony","CFNetwork","CoreGraphics","UIKit","Foundation"
+  s.libraries = "z","stdc++","sqlite3.0"
+  #,"-lstdc++"
   s.ios.deployment_target = '8.0'
 end
 

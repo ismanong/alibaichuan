@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:alibaichuan/alibaichuan.dart';
-//import 'taobao_auth_webview.dart';
+import 'taobao_auth_webview.dart';
 
 void main() => runApp(MaterialApp(
       home: MyApp(),
@@ -24,12 +24,12 @@ class _MyAppState extends State<MyApp> {
       message = '$res';
       isLoginResult = res['isSuccess'];
     });
-//    await Navigator.push(
-//      context,
-//      MaterialPageRoute(
-//        builder: (context) => TaoBaoAuthWebView(),
-//      ),
-//    );
+    await Navigator.push(
+      context,
+      MaterialPageRoute(
+        builder: (context) => TaoBaoAuthWebView(),
+      ),
+    );
   }
 
   logout() async {

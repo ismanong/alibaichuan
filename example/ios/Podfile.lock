@@ -1,0 +1,28 @@
+PODS:
+  - alibaichuan (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - webview_flutter (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - alibaichuan (from `.symlinks/plugins/alibaichuan/ios`)
+  - Flutter (from `.symlinks/flutter/ios`)
+  - webview_flutter (from `.symlinks/plugins/webview_flutter/ios`)
+
+EXTERNAL SOURCES:
+  alibaichuan:
+    :path: ".symlinks/plugins/alibaichuan/ios"
+  Flutter:
+    :path: ".symlinks/flutter/ios"
+  webview_flutter:
+    :path: ".symlinks/plugins/webview_flutter/ios"
+
+SPEC CHECKSUMS:
+  alibaichuan: 94d5044118b1bb6de810d39f6f164b438fe09da6
+  Flutter: 58dd7d1b27887414a370fcccb9e645c08ffd7a6a
+  webview_flutter: 1aa7604e6cdb451a9b7ed2c37d5454c0b440246b
+
+PODFILE CHECKSUM: e07f17686b7a563b8a33ff5b3216090383f72437
+
+COCOAPODS: 1.6.1
